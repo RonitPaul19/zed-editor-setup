@@ -1,0 +1,39 @@
+[
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "space s": "workspace::Save",
+
+      "space g d": "editor::GoToDefinition",
+      "space g t": "editor::GoToTypeDefinition",
+      "space g i": "editor::GoToImplementation",
+      "space g r": "editor::FindAllReferences",
+
+      "space s s": "outline::Toggle",
+      "space s f": "file_finder::Toggle",
+
+      "space v d": "editor::GoToDefinition",
+      "space v h": "editor::Hover",
+
+      "space f f": "buffer_search::Deploy",
+
+      "space r e": "editor::Rename",
+
+      "space s g": "editor::ShowCompletions",
+
+      "space f m": "editor::Format",
+      "space f c": "editor::Format",
+
+      "space o i": "editor::OrganizeImports",
+
+      "space e": "workspace::ToggleRightDock",
+
+      "space w v": "pane::SplitRight",
+      "space w h": "pane::SplitDown",
+
+      "space c f": "pane::CloseActiveItem",
+
+      "space c p": "command_palette::Toggle"
+    }
+  },
+]
